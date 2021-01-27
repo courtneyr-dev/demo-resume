@@ -1,0 +1,129 @@
+body {
+    font-size: 20px;
+    color: rgba(14, 1, 14, 0.941);
+    background-color:#FFFFF0;
+    margin-top:60px;
+}
+/* Nav bar Style*/
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+header li {
+   border-right: 1px solid #bbb;
+   float: left;
+  }
+  
+header li:last-child {
+    border-right: none;
+  }
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px 0px 14px;
+    text-decoration: none;
+  }
+header li a:hover {
+    color: rgb(171, 167, 255);
+  }
+
+/* General formatting */  
+li {
+  padding: 0 0 10px 0;
+}
+
+#resume-body {
+    width: 70%;
+    margin: auto;
+  }
+
+.profilepic {
+  filter: drop-shadow(0 0 0.5rem #575757);
+  margin: 0 0 40px 40px;
+  text-overflow: unset;
+  
+} 
+  
+.bio p {
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+/* Footer Style */
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  color:rgb(171, 167, 255)
+}
+
+/* Styling contact page form */
+
+#message {
+  width: 880px;
+  height:400px;
+  line-height: 1rem;
+}
+
+.fullname, .contact, .message {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin-left: 60px;
+  width: 900px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+#button1 {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  align-content: center;
+  width: 880px;
+  margin:60px;
+  transition-duration: 0.4s;
+}
+#button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+label {
+  font-weight:600;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+input {
+  padding: 5px 5px 5px 5px;
+  line-height: 1.3rem;
+}
+
